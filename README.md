@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Tiktok UI Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Đây là một dự án thực hành xây dựng giao diện người dùng (UI) giống với TikTok bằng ReactJS. Mục tiêu là học và áp dụng các kỹ thuật về giao diện hiện đại, quản lý component, và responsive design.
 
-## Available Scripts
+## 🌟 Tính năng chính
 
-In the project directory, you can run:
+- Giao diện trang chủ tương tự TikTok
+- Sidebar điều hướng
+- Danh sách video và người dùng gợi ý
+- Giao diện responsive hỗ trợ nhiều kích thước màn hình
 
-### `npm start`
+## 🛠️ Công nghệ sử dụng
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ReactJS (Create React App)
+- SCSS / CSS Modules
+- React Router v6
+- Font Awesome / Tippy.js
+- ClassNames, PropTypes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Cách chạy dự án
 
-### `npm test`
+1. Clone repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/Haianh1206/Tiktok_ui.git
+cd Tiktok_ui
 
-### `npm run build`
+2. Cài đặt dependencies
+bash
+Sao chép
+Chỉnh sửa
+npm install
+# hoặc dùng yarn
+# yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Chạy ứng dụng
+bash
+Sao chép
+Chỉnh sửa
+npm start
+# hoặc yarn start
+Ứng dụng sẽ chạy tại địa chỉ: http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📂 Cấu trúc thư mục
+bash
+Sao chép
+Chỉnh sửa
+src/
+├── assets/            # Hình ảnh và icon
+├── components/        # Các component dùng chung
+├── layouts/           # Các layout chính
+├── pages/             # Các trang chính (Home, Following, v.v.)
+├── routes/            # Cấu hình route
+├── App.js             # Component gốc
+└── index.js           # Điểm bắt đầu
+```
