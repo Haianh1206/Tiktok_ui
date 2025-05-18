@@ -1,0 +1,100 @@
+.wrapper {
+  padding: 24px 0px;
+
+  width: 660px;
+}
+.video-item {
+  padding: 16px 0;
+  display: flex;
+  position: relative;
+}
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.info {
+  width: 358px;
+  line-height: 2.4rem;
+  margin-left: 8px;
+}
+.name {
+  font-family: 'IBM Plex Sans', TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #161823;
+  line-height: 3rem;
+  margin-top: 4px;
+}
+.name:hover,
+.name-music:hover {
+  text-decoration: underline;
+}
+.check {
+  color: rgb(32, 213, 236);
+  font-size: 1.4rem;
+  margin-left: 4px;
+}
+.username {
+  font-family: 'IBM Plex Sans', TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #161823;
+  margin-left: 4px;
+}
+.name-music {
+  font-weight: 600;
+  color: #161823;
+  display: flex;
+}
+.music-icon {
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.button-follow {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  width: 88px;
+  height: 28px;
+  line-height: 0px;
+}
+.video {
+  width: 340px;
+  display: flex;
+}
+.video-info {
+  width: 272px;
+  height: 486px;
+}
+.button-icon-list {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+}
+.button-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  line-height: 0rem;
+}
+.value {
+  color: rgba(22, 24, 35, 0.75);
+  font-size: 1.2rem;
+  letter-spacing: 0.161px;
+  font-family: 'IBM Plex Sans', TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+  line-height: 1.6rem;
+}
+.value:last-child {
+  margin-left: 14px;
+}

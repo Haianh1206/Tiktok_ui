@@ -1,0 +1,42 @@
+.wrapper {
+  width: 280px;
+  height: 272px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.share-list {
+  font-family: 'IBM Plex Sans', TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+}
+.share-item {
+  width: 273px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 11px 16px;
+  margin: 0px 3px 0px 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.03px;
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.link-icon-sepa,
+.link-icon {
+  margin-right: 12px;
+}
+.link-icon-sepa {
+  opacity: 0.75;
+}
+.more {
+  margin: 0 4px;
+  padding: 0 16px;
+  height: 24px;
+  text-align: center;
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}

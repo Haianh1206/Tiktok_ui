@@ -1,0 +1,17 @@
+.wrapper {
+  border-top: 1px solid #e2dfdf;
+}
+.link-list {
+  padding: 4px 8px;
+  width: 260px;
+  font-family: var(--font-family);
+}
+.link-item {
+  color: rgba(22, 24, 35, 0.6);
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding: 2px 4px 0 0;
+}
+.link-item:hover {
+  text-decoration: underline;
+}
